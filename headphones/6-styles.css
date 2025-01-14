@@ -1,0 +1,50 @@
+.pentagon {
+    width: 100px;
+    height: 100px;
+    background: var(--secondary-color);
+    position: relative;
+    margin: 0 auto;
+}
+
+.pentagon:before, .pentagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+
+.pentagon:before {
+    bottom: 100%;
+    border-bottom: 35px solid var(--secondary-color);
+}
+
+.pentagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 35px solid var(--secondary-color);
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.result {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.result h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.result p {
+    font-size: 1rem;
+}
