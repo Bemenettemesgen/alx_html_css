@@ -1,0 +1,39 @@
+.our-results {
+    padding: 3rem 0;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.our-results h2 {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 2rem;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.result {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.result h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.result p {
+    font-size: 1rem;
+}
+
+.custom-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
